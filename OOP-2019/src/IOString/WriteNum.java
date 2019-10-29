@@ -10,12 +10,8 @@ public class WriteNum {
 		
 		try {
 			fot = new FileOutputStream(args[0]);
-		}catch (Exception e) {
-			System.out.println("Errore!\n" + e);
-		}
-		
-		DataOutputStream ot = new DataOutputStream(fot);
-		try {
+			DataOutputStream ot = new DataOutputStream(fot);
+			
 			for(int e:num) {
 				ot.writeInt(e);
 			}
