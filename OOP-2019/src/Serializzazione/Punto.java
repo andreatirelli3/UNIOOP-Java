@@ -2,6 +2,7 @@ package Serializzazione;
 
 import java.io.*;
 
+@SuppressWarnings("serial")
 public class Punto implements Serializable{
 	/**
 	 * Coordinata x del punto
