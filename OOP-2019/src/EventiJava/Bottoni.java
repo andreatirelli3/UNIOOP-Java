@@ -11,6 +11,7 @@ public class Bottoni extends JPanel implements ActionListener{
 	
 	public Bottoni() {
 		super();
+		
 		t1 = new JTextField(25); // Aggiunta la grandezza dei caratteri che possono essere immessi 25
 		t2 = new JTextField(1); // Aggiunta la grandezza dei caratteri che possono essere immessi 1
 		t3 = new JTextField(1); // Aggiunta la grandezza dei caratteri che possono essere immessi 1
