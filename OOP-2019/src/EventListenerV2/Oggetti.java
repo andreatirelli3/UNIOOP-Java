@@ -1,6 +1,5 @@
 package EventListenerV2;
 
-import java.awt.event.*;
 import javax.swing.*;
 
 public class Oggetti extends JPanel{
